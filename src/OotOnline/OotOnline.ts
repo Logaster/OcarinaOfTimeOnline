@@ -428,6 +428,7 @@ class OotOnline implements ModLoader.IPlugin, IOotOnlineHelpers {
         'OotOnline:onAgeChange',
         new GUITunnelPacket('OotOnline', 'OotOnline:onAgeChange', gui_p)
       );
+      this.utility.makeRamDump();
     }, 1000);
   }
 
